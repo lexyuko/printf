@@ -7,6 +7,12 @@ void print_buffer(char buffer[], int *buff_ind);
  * @format: format.
  * Return: Printed chars.
  */
+
+int main(){
+	get_flags();
+	return 0;
+}
+
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
